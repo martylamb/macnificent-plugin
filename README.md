@@ -16,18 +16,18 @@ macnificent.dat project resource during Maven's generate-resources phase.
 You'll likely also want to add [macnificent](https://github.com/martylamb/macnificent)
 to your project as well.
 
-Add the repository to your project
-----------------------------------
+Add the plugin repository to your project
+-----------------------------------------
 
 ```xml
 <project>
 	...
-	<repositories>
-		<repository>
-			<id>martiansoftware</id>
-			<url>http://mvn.martiansoftware.com</url>
-		</repository>
-	</repositories>	
+    <pluginRepositories>
+        <pluginRepository>
+            <id>martiansoftware</id>
+            <url>http://mvn.martiansoftware.com</url>
+        </pluginRepository>
+    </pluginRepositories> 
 	...
 </project>
 ```
@@ -41,7 +41,7 @@ Add the plugin to your build
 		<plugin>
 			<groupId>com.martiansoftware</groupId>
 			<artifactId>macnificent-plugin</artifactId>
-			<version>1.0-SNAPSHOT</version>
+			<version>0.1.0-SNAPSHOT</version>
 			<executions>
 				<execution>
 					<goals>
