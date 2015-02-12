@@ -62,7 +62,7 @@ public class MacnificentMojo extends AbstractMojo {
     @Parameter(property = "macnificent.datfile", defaultValue = "macnificent.dat")
     private String file;
     
-    @Parameter(property = "macnificent.url", defaultValue = "http://standards.ieee.org/develop/regauth/oui/oui.txt")
+    @Parameter(property = "macnificent.url", defaultValue = "http://standards-oui.ieee.org/oui.txt")
     private String url;
 
     // TODO: is this separator char ok on windows?
