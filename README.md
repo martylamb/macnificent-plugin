@@ -3,6 +3,9 @@ macnificent-plugin
 
 Marty Lamb mlamb@martiansoftware.com at [Martian Software, Inc.](http://martiansoftware.com)
 
+> [!NOTE]
+> This project is deprecated and no longer maintained.  [Macnificent](https://github.com/martylamb/macnificent) now includes its own data file generator.
+
 macnificent-plugin is a Maven plugin for generating an up-to-date IEEE OUI data
 file for use by the [macnificent](https://github.com/martylamb/macnificent) MAC
 address library.
