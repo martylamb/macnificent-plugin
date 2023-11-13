@@ -1,4 +1,5 @@
 **Important Notice**: [Repository History Change on 2023-11-13](./NOTICES.md#repository-history-change---2023-11-13)
+
 macnificent-plugin
 ==================
 
